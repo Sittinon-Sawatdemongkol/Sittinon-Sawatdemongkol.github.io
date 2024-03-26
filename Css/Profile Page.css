@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(0, 195, 255); /* Set background color for the body */
+}
+
+header {
+    background-color: #333; /* Set background color for the header */
+    color: #fff; /* Set text color for the header */
+    padding: 20px 0; /* Add padding to the header */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px; /* Add padding to the right side of the navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    color: #000000; /* Set text color for h1 */
+}
+
+p {
+    color: #000000; /* Set text color for paragraphs */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile card styles */
+.profile-card {
+    width: 550px; /* Set width of the profile card */
+    height: 520px; /* Set height of the profile card */
+    background-color: #f9f9f9; /* Set background color for the profile card */
+    border-radius: 10px; /* Add border-radius to the profile card */
+    padding: 20px; /* Add padding to the profile card */
+    text-align: center; /* Center align text within the profile card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to the profile card */
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.profile-card p {
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.profile-card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile-card a:hover {
+    color: #555;
+}
+
+.home-content {
+    text-align: center;
+    font-size: 24px; /* Set font size for home content */
+    border: 3px solid #333; /* Add border to home content */
+    padding: 20px; /* Add padding to home content */
+}
+
+footer {
+    background-color: #333; /* Set background color for the footer */
+    color: #fff; /* Set text color for the footer */
+    text-align: center;
+    padding: 20px 0;
+}

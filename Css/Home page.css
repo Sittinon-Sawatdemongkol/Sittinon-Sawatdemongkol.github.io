@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/image/background.jpg'); /* เพิ่มรูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดรูปภาพให้เต็มขนาด body */
+    background-position: center; /* วางตำแหน่งรูปภาพที่กึ่งกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    text-align: center;
+    font-size: 24px; /* กำหนดขนาดตัวอักษรให้มีขนาดใหญ่ขึ้น */
+    border: 3px solid #333; /* กำหนดขอบกรอบ */
+    padding: 20px; /* เพิ่มช่องว่างภายในกรอบ */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
